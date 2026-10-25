@@ -1,7 +1,12 @@
-# 日英德语学习场景
+# 日英德语场景学习
 
-GitHub Pages 入口为 `index.html`。页面已经内嵌全部 47 段 Piper WAV 语音，因此打开页面不依赖 `audio/` 目录；该目录保留生成后的原始 WAV 音频，供备份和后续编辑使用。
+GitHub Pages 首页是 `index.html`，按期数列出每篇练习。每个场景都有单独的 HTML 页面，可从目录直接打开。
 
-插图由 `scene-01-form-save-issue.svg` 提供；`grill-language-learning.md` 保存学习偏好与设计说明。
+## 学习目录
 
-本发布包只包含页面、插图、学习说明和生成后的音频资产，不包含 Piper 安装环境和约 561 MB 的模型文件。它们不影响浏览网页，GitHub Pages 发布站点上限为 1 GB；GitHub 仓库还会阻止超过 100 MiB 的单个常规 Git 文件。
+- 场景 01：提交成功，数据却没保存？ — `scene-01-form-save-issue.html`
+- 场景 02：周五要发布，客户临时加 CSV 导出 — `scene-02-scope-change-release.html`
+
+每期保持日语、英语、德语的相同情境练习，附中文拆解、角色练习、突发变化和逐句 Piper 音频。页面音频内嵌于 HTML，不依赖本地模型或开发环境。
+
+场景插画：`scene-01-form-save-issue.svg`、`scene-02-scope-change-release.svg`。
