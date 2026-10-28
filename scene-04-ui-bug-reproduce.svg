@@ -1,0 +1,26 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fdfbf7"/><stop offset="100%" stop-color="#eaf2ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g)"/>
+  <rect x="80" y="80" width="1040" height="540" rx="32" fill="#ffffff" stroke="#e9e6df"/>
+  <text x="120" y="160" font-family="system-ui" font-size="40" font-weight="700" fill="#202d49">疑难排查 · 界面 Bug 无法复现</text>
+  <text x="120" y="210" font-family="system-ui" font-size="22" fill="#596780">客户反馈页面显示异常，但开发本地一切正常。需礼貌说明、收集环境并征求日志排查许可</text>
+  <!-- illustration box -->
+  <rect x="120" y="260" width="460" height="260" rx="20" fill="#edf5ff" stroke="#d8e6ff"/>
+  <text x="150" y="310" font-family="system-ui" font-size="20" font-weight="600" fill="#202d49">本地环境：正常 ✅</text>
+  <rect x="150" y="340" width="400" height="140" rx="12" fill="#ffffff" stroke="#e9e6df"/>
+  <circle cx="190" cy="410" r="25" fill="#dff3e9"/>
+  <text x="230" y="416" font-family="system-ui" font-size="16" fill="#202d49">UI 渲染无异常</text>
+
+  <rect x="620" y="260" width="460" height="260" rx="20" fill="#ffe5d8" stroke="#ffd1bd"/>
+  <text x="650" y="310" font-family="system-ui" font-size="20" font-weight="600" fill="#8a3f20">客户环境：偶现 ❓</text>
+  <rect x="650" y="340" width="400" height="140" rx="12" fill="#ffffff" stroke="#e9e6df"/>
+  <circle cx="690" cy="410" r="25" fill="#ffe8a4"/>
+  <text x="730" y="416" font-family="system-ui" font-size="16" fill="#202d49">需要详细步骤与日志</text>
+
+  <text x="120" y="600" font-family="system-ui" font-size="18" fill="#596780">沟通要点：如实说明未复现 → 索取环境与步骤 → 申请提高日志级别 → 获得认可</text>
+</svg>
